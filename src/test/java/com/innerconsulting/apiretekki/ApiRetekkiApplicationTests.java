@@ -1,12 +1,12 @@
-package com.innerconsulting.retekki;
+package com.innerconsulting.apiretekki;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
-class RetekkiApplicationTests {
+@SpringBootTest
+class ApiRetekkiApplicationTests {
 
-	//@Test
+	@Test
 	void contextLoads() {
 	}
 

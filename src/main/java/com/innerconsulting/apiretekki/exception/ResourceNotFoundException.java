@@ -1,11 +1,11 @@
-package com.innerconsulting.retekki.exception;
+package com.innerconsulting.apiretekki.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
-public class ResouceNotFoundException extends RuntimeException {
-    public ResouceNotFoundException(String message) {
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
         super(message);
     }
 }
