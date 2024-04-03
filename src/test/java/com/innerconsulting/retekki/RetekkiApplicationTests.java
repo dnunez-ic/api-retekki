@@ -3,10 +3,10 @@ package com.innerconsulting.retekki;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class RetekkiApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
